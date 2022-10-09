@@ -47,7 +47,7 @@ const Technologies = () => {
       <div className="flex flex-col items-center justify-center text-center">
         <p className="text-white sm:text-2xl text-lg cursor-default">
           Estas son las tecnologías, herramientas y lenguajes que utilizo, y que
-          al día de hoy continuo aprendiendo para mejorar mis destrezas
+          al día de hoy continuo aprendiendo para mejorar mi destreza en ellas
         </p>
       </div>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
