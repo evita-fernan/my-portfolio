@@ -17,7 +17,7 @@ const ContactMe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const action = "https://formspree.io/f/mknezwbp";
+    const action = `https://formspree.io/f/${process.env.REACT_APP_CODE}`;
     const response = await axios.post(action, { data });
     if (response.ok) {
       Swal.fire({
