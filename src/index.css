@@ -8,9 +8,28 @@
   * {
     @apply font-[Poppins];
   }
-
+  h1 {
+    @apply text-white text-2xl lg:text-4xl md:flex justify-center text-center md:items-center
+  }
+  h2 {
+    @apply text-white py-4 lg:py-12 text-xl lg:text-3xl lg:flex justify-center text-center lg:items-center
+  }
+  p {
+    @apply py-4 lg:text-xl text-base
+  }
 }
 
 ion-icon {
   color: white;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }

@@ -1,14 +1,22 @@
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <div>
-        <Navbar />
-        <Header />
-      </div>
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <AboutMe />
+      <Projects />
+      <Technologies />
+      <ContactMe />
+      <Footer />
+    </div>
   );
 }
 
