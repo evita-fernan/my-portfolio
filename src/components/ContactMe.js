@@ -17,15 +17,21 @@ const ContactMe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const action = `https://formspree.io/f/${process.env.REACT_APP_CODE}`;
-    const response = await axios.post(action, { data });
-    if (response.ok) {
+    const action = `https://getform.io/f/${process.env.REACT_APP_CODE}`;
+    const formData = { ...data };
+    const response = await axios({
+      method: "POST",
+      url: action,
+      data: formData,
+      header: { "Content-Type": "multipart/form-data" },
+    });
+    if (formData.name && formData.email && formData.message) {
       Swal.fire({
         title: "¡Muchas gracias por contactarte!",
         text: "En breve te responderé.",
         icon: "success",
         confirmButtonText: "Aceptar",
-      })
+      });
       setData({
         name: "",
         email: "",
@@ -37,8 +43,8 @@ const ContactMe = () => {
         text: "Si no indicas tus datos, no podré contactarte",
         icon: "error",
         confirmButtonText: "Aceptar",
-      })
-    };
+      });
+    }
   };
 
   return (
@@ -52,7 +58,8 @@ const ContactMe = () => {
       <div className="max-w-screen-2xl items-center justify-center mx-auto">
         <h1 className="py-12 cursor-default">Contáctame</h1>
         <p className="text-white sm:text-2xl text-lg text-center cursor-default">
-          Puedes estar en contacto conmigo completando el siguiente formulario, a través de linkedIn o por correo electrónico
+          Puedes estar en contacto conmigo completando el siguiente formulario,
+          a través de linkedIn o por correo electrónico
         </p>
         <div className="flex justify-center items-center py-8">
           <form
@@ -68,7 +75,7 @@ const ContactMe = () => {
               className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               name="email"
               value={data.email}
               placeholder="Ingresa tu correo electrónico"
