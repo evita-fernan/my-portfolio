@@ -13,7 +13,7 @@ import mongoDB from "../assets/icons/mongodb.png";
 import react from "../assets/icons/react.svg";
 import redux from "../assets/icons/redux.svg";
 import git from "../assets/icons/git.png";
-import postman from "../assets/icons/postman.svg"
+import postman from "../assets/icons/postman.svg";
 
 const Technologies = () => {
   const techs = [
@@ -33,7 +33,10 @@ const Technologies = () => {
     { id: 14, name: "Git", img: git },
   ];
   return (
-    <div className="bg-black max-w-[1240] flex flex-col justify-center mx-auto px-4 py-12" name="technologies">
+    <div
+      className="bg-black max-w-[1240] flex flex-col justify-center mx-auto px-4 py-12"
+      name="technologies"
+    >
       <div className="flex justify-center">
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
@@ -43,13 +46,17 @@ const Technologies = () => {
       <h1 className="py-12 cursor-default">Tecnologías</h1>
       <div className="flex flex-col items-center justify-center text-center">
         <p className="text-white sm:text-2xl text-lg cursor-default">
-          Estas son las tecnologías, herramientas y lenguajes que domino
+          Estas son las tecnologías, herramientas y lenguajes que utilizo, y que
+          al día de hoy continuo aprendiendo para mejorar mis destrezas
         </p>
       </div>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-8 sm:px-0 rounded-lg">
           {techs.map(({ id, name, img }) => (
-            <div key={id} className="py-2 hover:shadow-[4px_4px_75px_rgb(236,72,153)] rounded-full px-2">
+            <div
+              key={id}
+              className="py-2 hover:shadow-[4px_4px_75px_rgb(236,72,153)] rounded-full px-2"
+            >
               <div key={id}>
                 <img src={img} className="w-20 mx-auto"></img>
                 <p className="text-white mt-4 cursor-default">{name}</p>
