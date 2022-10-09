@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/evita-fernan.github.io/static/css/main.dd5c662a.css",
+    "main.js": "/evita-fernan.github.io/static/js/main.3bf91b99.js",
+    "static/media/bierfass.png": "/evita-fernan.github.io/static/media/bierfass.613e1c81d67d8ad633ed.png",
+    "static/media/header.jpeg": "/evita-fernan.github.io/static/media/header.72c36a098c8067f31853.jpeg",
+    "static/media/miTurnomax.png": "/evita-fernan.github.io/static/media/miTurnomax.c35961065e7f792544d7.png",
+    "static/media/profile.svg": "/evita-fernan.github.io/static/media/profile.8c33ea7e4974fa77dcad808a08a0af90.svg",
+    "static/media/react.svg": "/evita-fernan.github.io/static/media/react.6729b7bc26cb78fbcb5277dc5e4141e0.svg",
+    "static/media/postgresql.svg": "/evita-fernan.github.io/static/media/postgresql.fe0cfb2305fafab070a0f04892bd562c.svg",
+    "static/media/postman.svg": "/evita-fernan.github.io/static/media/postman.c246e2daed328c503b19c760dc7772a0.svg",
+    "static/media/nodejs.svg": "/evita-fernan.github.io/static/media/nodejs.54566657804479c2a6aa97f706739cea.svg",
+    "static/media/redux.svg": "/evita-fernan.github.io/static/media/redux.8cc6ae61b7e76af4f1e6ef76ccbe415e.svg",
+    "static/media/jwt.svg": "/evita-fernan.github.io/static/media/jwt.aa719ef01fbd57695a1aa8304936fb6f.svg",
+    "static/media/mail.svg": "/evita-fernan.github.io/static/media/mail.86d377fb062851dbcf9fbf38a17c82d9.svg",
+    "static/media/materialui.svg": "/evita-fernan.github.io/static/media/materialui.1bc3c615ae643dc4538c8679d655e257.svg",
+    "static/media/gitHub.svg": "/evita-fernan.github.io/static/media/gitHub.e10c1716bf03eb17b500e32d961620fd.svg",
+    "static/media/js.svg": "/evita-fernan.github.io/static/media/js.9edce23a80f61bbab98a68c40ff2ec26.svg",
+    "static/media/expressjs.svg": "/evita-fernan.github.io/static/media/expressjs.cacbfbaea45cafb95d12de4c102c3ddd.svg",
+    "static/media/tailwind.svg": "/evita-fernan.github.io/static/media/tailwind.51ca776d5614b2a99ce39803382e86bd.svg",
+    "index.html": "/evita-fernan.github.io/index.html",
+    "static/media/youTube.svg": "/evita-fernan.github.io/static/media/youTube.c3ae3c5c630f9f1daf29e2679b5b74ef.svg",
+    "main.dd5c662a.css.map": "/evita-fernan.github.io/static/css/main.dd5c662a.css.map",
+    "main.3bf91b99.js.map": "/evita-fernan.github.io/static/js/main.3bf91b99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd5c662a.css",
+    "static/js/main.3bf91b99.js"
+  ]
+}
