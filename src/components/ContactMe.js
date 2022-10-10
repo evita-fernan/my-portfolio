@@ -43,8 +43,8 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="bg-black w-full mx-auto px-4" name="contactMe">
-      <div className="flex justify-center py-6">
+    <div className="bg-black w-full mx-auto px-4 py-10" name="contactMe">
+      <div className="flex justify-center">
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}

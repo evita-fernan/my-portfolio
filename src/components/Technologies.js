@@ -34,7 +34,7 @@ const Technologies = () => {
   ];
   return (
     <div
-      className="bg-black w-full flex flex-col justify-center mx-auto px-4 py-12"
+      className="bg-black w-full flex flex-col justify-center mx-auto px-4 py-10"
       name="technologies"
     >
       <div className="flex justify-center">
@@ -50,15 +50,15 @@ const Technologies = () => {
           al día de hoy continuo aprendiendo para mejorar mi destreza en ellas
         </p>
       </div>
-      <div className="max-w-screen-lg h-full flex flex-col items-center justify-center mx-auto w-full">
+      <div className="max-w-screen-lg h-full flex flex-col items-center justify-center mx-auto w-full hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)]">
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-8 sm:px-0 rounded-lg">
           {techs.map(({ id, name, img }) => (
             <div
               key={id}
-              className="py-2 hover:shadow-[4px_4px_75px_rgb(236,72,153)] rounded-full px-2"
+              className="py-2 rounded-full px-2"
             >
               <div key={id}>
-                <img src={img} className="w-16 mx-auto"></img>
+                <img src={img} className="w-16 sm:w-20 mx-auto"></img>
                 <p className="text-white mt-4 cursor-default text-sm sm:text-base">{name}</p>
               </div>
             </div>
