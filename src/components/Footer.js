@@ -26,12 +26,12 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-black max-w-screen-lg mx-auto w-full h-full">
+    <div className="bg-black mx-auto w-full h-full">
       <div className="flex flex-row justify-center items-center p-4 w-full rounded-lg">
         {icons.map(({ id, name, img, link }) => (
           <div key={id}>
             <a href={link} target="_blank">
-              <img src={img} className="px-3 py-3 hover:hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full"></img>
+              <img src={img} className="px-3 py-3 hover:hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-full"></img>
             </a>
           </div>
         ))}
