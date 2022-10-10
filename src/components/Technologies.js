@@ -45,7 +45,7 @@ const Technologies = () => {
       </div>
       <h1 className="py-12 cursor-default">Tecnologías</h1>
       <div className="flex flex-col h-full items-center justify-center text-center">
-        <p className="text-white sm:text-2xl text-lg cursor-default">
+        <p className="text-white sm:text-2xl pb-12 text-lg cursor-default">
           Estas son las tecnologías, herramientas y lenguajes que utilizo, y que
           al día de hoy continuo aprendiendo para mejorar mi destreza en ellas
         </p>
