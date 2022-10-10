@@ -26,8 +26,8 @@ const Footer = () => {
   ];
 
   return (
-    <div className="bg-black w-full mx-auto">
-      <div className="flex flex-row justify-center items-center p-4 max-w-screen-lg mx-auto w-full h-full">
+    <div className="bg-black max-w-screen-lg mx-auto w-full h-full">
+      <div className="flex flex-row justify-center items-center p-4 w-full rounded-lg">
         {icons.map(({ id, name, img, link }) => (
           <div key={id}>
             <a href={link} target="_blank">
