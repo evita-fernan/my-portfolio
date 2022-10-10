@@ -13,7 +13,7 @@ const AboutMe = () => {
       </div>
       <h1 className="py-12 cursor-default">¿Quién soy?</h1>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto">
-        <div className=" bg-gray-800 rounded-lg p-4 border-gray-700 justify-center text-gray-300 py-4 sm:p-8 text-lg sm:text-xl text-center hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)]">
+        <div className=" bg-gray-800 rounded-lg p-4 border-gray-700 justify-center text-gray-300 py-4 sm:p-8 text-center text-lg sm:text-2xl hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)]">
           <div className="space-y-2 cursor-default">
             <p>
               ¡Hola! ¿cómo estás? mi nombre es Evangelina y me gusta que me

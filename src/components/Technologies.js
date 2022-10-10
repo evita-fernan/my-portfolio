@@ -50,7 +50,7 @@ const Technologies = () => {
           al día de hoy continuo aprendiendo para mejorar mi destreza en ellas
         </p>
       </div>
-      <div className="max-w-screen-lg h-full flex flex-col bg-gray-800 items-center justify-center mx-auto w-full hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)]">
+      <div className="max-w-screen-lg h-full flex flex-col bg-gray-800 items-center justify-center mx-auto w-full hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg">
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-8 sm:px-0 rounded-lg">
           {techs.map(({ id, name, img }) => (
             <div
