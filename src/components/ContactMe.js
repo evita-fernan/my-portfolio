@@ -67,7 +67,7 @@ const ContactMe = () => {
               value={data.name}
               placeholder="Ingresa tu nombre"
               onChange={handleChange}
-              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none"
+              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none focus:border-indigo-500"
             />
             <input
               type="email"
@@ -75,7 +75,7 @@ const ContactMe = () => {
               value={data.email}
               placeholder="Ingresa tu correo electrónico"
               onChange={handleChange}
-              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none"
+              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none focus:border-purple-500 focus:invalid:border-red-500"
             />
             <textarea
               name="message"
@@ -83,7 +83,7 @@ const ContactMe = () => {
               rows="10"
               placeholder="Hola Evita..."
               onChange={handleChange}
-              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none"
+              className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none focus:border-pink-500"
             />
             <div className="flex flex-col justify-center items-center py-2">
               <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[color:white] text-lg lg:text-2xl py-2 px-6 rounded md:ml-8 hover:bg-secondary duration-500">

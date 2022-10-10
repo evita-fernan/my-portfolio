@@ -27,16 +27,16 @@ const Footer = () => {
 
   return (
     <div className="bg-black mx-auto w-full h-full">
-      <div className="flex flex-row justify-center items-center p-4 w-full">
+      <div className="flex flex-row justify-center items-center p-0 sm:p-4 w-full">
         {icons.map(({ id, name, img, link }) => (
           <div key={id}>
             <a href={link} target="_blank">
-              <img src={img} className="px-3 py-3 hover:hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-16 sm:w-20"></img>
+              <img src={img} className="px-3 py-3 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-16 sm:w-20"></img>
             </a>
           </div>
         ))}
       </div>
-      <div className="text-white text-center text-xs sm:text-base cursor-default">
+      <div className="text-white text-center text-xs sm:text-base cursor-default pb-4 sm:pb-2">
         © Sitio web desarrollado por Evangelina M. Fernández
       </div>
     </div>
