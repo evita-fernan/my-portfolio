@@ -17,15 +17,10 @@ const ContactMe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const action = `https://getform.io/f/${process.env.REACT_APP_CODE}`;
+    const action = `https://formspree.io/f/${process.env.REACT_APP_CODE}`;
     const formData = { ...data };
-    const response = await axios({
-      method: "POST",
-      url: action,
-      data: formData,
-      header: { "Content-Type": "multipart/form-data" },
-    });
-    if (formData.name && formData.email && formData.message) {
+    const response = await axios.post(action, formData);
+    if (response.data.ok && formData.name && formData.email && formData.message) {
       Swal.fire({
         title: "¡Muchas gracias por contactarte!",
         text: "En breve te responderé.",
