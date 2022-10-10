@@ -58,7 +58,7 @@ const ContactMe = () => {
         </p>
         <div className="flex justify-center items-center py-8">
           <form
-            className="flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full bg-gray-800 md:w-1/2"
             onSubmit={handleSubmit}
           >
             <input
@@ -85,7 +85,7 @@ const ContactMe = () => {
               onChange={handleChange}
               className="text-white border-2 bg-transparent rounded-md p-4 mb-2 focus:outline-none focus:border-pink-500"
             />
-            <div className="flex flex-col justify-center items-center py-2">
+            <div className="flex flex-col justify-center bg-black items-center py-2">
               <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[color:white] text-lg lg:text-2xl py-2 px-6 rounded md:ml-8 hover:bg-secondary duration-500">
                 Enviar
               </button>

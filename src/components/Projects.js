@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
         <h1 className="py-12 cursor-default">Projectos</h1>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-2 px-4">
-          <div className="px-8 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg">
+          <div className="bg-gray-800 px-8 my-4 mx-4 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg">
             <img
               className="rounded-t-lg object-bottom py-6"
               src={bierfass}
@@ -60,7 +60,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="px-8 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded">
+          <div className="bg-gray-800 px-8 my-4 mx-4 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded">
             <a href="https://github.com/evita-fernan/bierfass">
               <img
                 className="rounded-t-lg object-bottom py-6"
