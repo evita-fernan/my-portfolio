@@ -50,7 +50,7 @@ const ContactMe = () => {
           src={downSmall}
         ></img>
       </div>
-      <div className="max-w-screen-2xl items-center justify-center mx-auto">
+      <div className="max-w-screen-xl items-center justify-center mx-auto">
         <h1 className="py-12 cursor-default">Contáctame</h1>
         <p className="text-white sm:text-2xl text-lg text-center cursor-default">
           Puedes estar en contacto conmigo completando el siguiente formulario,
