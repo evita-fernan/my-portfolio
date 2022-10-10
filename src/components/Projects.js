@@ -7,7 +7,7 @@ import youTube from "../assets/icons/youTube.svg";
 
 const Projects = () => {
   return (
-    <div className="bg-black max-w-[1240] mx-auto px-4 py-12" name="projects">
+    <div className="bg-black w-full mx-auto px-4 py-12" name="projects">
       <div className="flex justify-center py-6">
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
@@ -103,7 +103,7 @@ const Projects = () => {
                 Herramientas
               </p>
               <p>Postman, MongoDB Atlas, GIT, GITHub, Atlassian Jira</p>
-              <div className="flex flex-row justify-center items-center p-4 space-x-8">
+              <div className="flex flex-col sm:flex-row justify-center items-center p-2 sm:p-4 space-x-0 sm:space-x-8">
                 <a
                   href="https://github.com/evita-fernan/miTurno"
                   target="_blank"

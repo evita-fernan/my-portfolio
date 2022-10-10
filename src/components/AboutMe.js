@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-[1240] mx-auto px-4 py-12 bg-black" name="aboutMe">
-      <div className="flex justify-center py-4">
+    <div className="w-full mx-auto px-4 py-12 bg-black" name="aboutMe">
+      <div className="flex justify-center py-4 h-full">
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}

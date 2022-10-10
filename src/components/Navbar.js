@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full shadow-md fixed top-0 left-0 bg-black">
-      <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
+      <div className="h-full md:flex items-center justify-between py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-[color:white]">
           <Link to="home" smooth={true} offset={-100} duration={2000}>
             <img
@@ -43,7 +43,7 @@ const Navbar = () => {
           {options.map((option) => (
             <li
               key={option.name}
-              className="md:ml-8 text-lg cursor-pointer lg:text-2xl md:my-0 my-7"
+              className="md:ml-8 text-lg cursor-pointer lg:text-xl md:my-0 my-7"
             >
               <Link
                 to={option.link}

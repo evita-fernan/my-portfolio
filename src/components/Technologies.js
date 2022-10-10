@@ -34,7 +34,7 @@ const Technologies = () => {
   ];
   return (
     <div
-      className="bg-black max-w-[1240] flex flex-col justify-center mx-auto px-4 py-12"
+      className="bg-black w-full flex flex-col justify-center mx-auto px-4 py-12"
       name="technologies"
     >
       <div className="flex justify-center">
@@ -44,7 +44,7 @@ const Technologies = () => {
         ></img>
       </div>
       <h1 className="py-12 cursor-default">Tecnologías</h1>
-      <div className="flex flex-col items-center justify-center text-center">
+      <div className="flex flex-col h-full items-center justify-center text-center">
         <p className="text-white sm:text-2xl text-lg cursor-default">
           Estas son las tecnologías, herramientas y lenguajes que utilizo, y que
           al día de hoy continuo aprendiendo para mejorar mi destreza en ellas
