@@ -12,10 +12,10 @@
     @apply text-white text-2xl lg:text-4xl md:flex justify-center text-center md:items-center
   }
   h2 {
-    @apply text-white py-4 lg:py-12 text-xl lg:text-3xl lg:flex justify-center text-center lg:items-center
+    @apply text-white py-4 lg:py-12 text-base lg:text-3xl lg:flex justify-center text-center lg:items-center
   }
   p {
-    @apply py-4 lg:text-xl text-base
+    @apply py-4 text-sm sm:text-base
   }
 }
 

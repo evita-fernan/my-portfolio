@@ -8,7 +8,7 @@ import youTube from "../assets/icons/youTube.svg";
 const Projects = () => {
   return (
     <div className="bg-black w-full mx-auto px-4 py-12" name="projects">
-      <div className="flex justify-center py-6">
+      <div className="flex justify-center">
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}
@@ -16,8 +16,8 @@ const Projects = () => {
       </div>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
         <h1 className="py-12 cursor-default">Projectos</h1>
-        <div className="grid grid-cols-2 gap-2 px-4">
-          <div className="px-8 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-2 px-4">
+          <div className="px-8 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg">
             <img
               className="rounded-t-lg object-bottom py-6"
               src={bierfass}
