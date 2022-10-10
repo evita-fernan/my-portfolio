@@ -52,7 +52,7 @@ const ContactMe = () => {
       </div>
       <div className="max-w-screen-xl items-center justify-center mx-auto">
         <h1 className="py-12 cursor-default">Contáctame</h1>
-        <p className="text-white sm:text-2xl text-lg text-center cursor-default">
+        <p className="text-white sm:text-2xl text-base text-center cursor-default">
           Puedes estar en contacto conmigo completando el siguiente formulario,
           a través de linkedIn o por correo electrónico
         </p>
