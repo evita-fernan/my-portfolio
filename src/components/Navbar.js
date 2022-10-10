@@ -20,7 +20,7 @@ const Navbar = () => {
             <img
               src={profile}
               alt="my profile"
-              className="h-12 sm:h-20 pl-4 mx-auto hover:h-24"
+              className="h-12 sm:h-20 pl-4 mx-auto hover:h-16 sm:hover:h-24"
             ></img>
           </Link>
         </div>
