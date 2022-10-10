@@ -28,7 +28,7 @@ const Navbar = () => {
           onClick={() => {
             setOpen(!open);
           }}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-4 top-6 cursor-pointer md:hidden"
         >
           <ion-icon
             className="text-white"

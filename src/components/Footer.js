@@ -31,12 +31,12 @@ const Footer = () => {
         {icons.map(({ id, name, img, link }) => (
           <div key={id}>
             <a href={link} target="_blank">
-              <img src={img} className="px-3 py-3 hover:hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-full"></img>
+              <img src={img} className="px-3 py-3 hover:hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg w-full"></img>
             </a>
           </div>
         ))}
       </div>
-      <div className="text-white text-center text-sm sm:text-base cursor-default">
+      <div className="text-white text-center text-xs sm:text-base cursor-default">
         © Sitio web desarrollado por Evangelina M. Fernández
       </div>
     </div>
