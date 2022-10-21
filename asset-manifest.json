@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be39783d.css",
-    "main.js": "/static/js/main.f0e5b544.js",
+    "main.js": "/static/js/main.f0d1bb2c.js",
     "static/media/bierfass.png": "/static/media/bierfass.613e1c81d67d8ad633ed.png",
     "static/media/header.jpeg": "/static/media/header.72c36a098c8067f31853.jpeg",
     "static/media/miTurnomax.png": "/static/media/miTurnomax.c35961065e7f792544d7.png",
@@ -21,10 +21,10 @@
     "static/media/youTube.svg": "/static/media/youTube.c3ae3c5c630f9f1daf29e2679b5b74ef.svg",
     "index.html": "/index.html",
     "main.be39783d.css.map": "/static/css/main.be39783d.css.map",
-    "main.f0e5b544.js.map": "/static/js/main.f0e5b544.js.map"
+    "main.f0d1bb2c.js.map": "/static/js/main.f0d1bb2c.js.map"
   },
   "entrypoints": [
     "static/css/main.be39783d.css",
-    "static/js/main.f0e5b544.js"
+    "static/js/main.f0d1bb2c.js"
   ]
 }
