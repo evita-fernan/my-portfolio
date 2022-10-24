@@ -6,7 +6,7 @@
 
 > El código de este portfolio se encuentra público para que puedas ver como lo desarrollé y si te es útil, lo puedas copiar y mejorar. 
 
-> A cambio te voy a pedir como contribución que me sigas por gitHub. De esta forma puedo darme cuenta si estoy haciendo un aporte a la comunidad :blush:
+> A cambio te voy a pedir como contribución que me sigas por gitHub. De esta forma me ayuda a saber si estoy haciendo un aporte a la comunidad :blush:
 
 ## Stack de tecnologías y fundamentos:
 
