@@ -1,6 +1,6 @@
 # Bienvenid@ a mi portfolio
 
-## ¡Hola! ¿Cómo estás?
+## ¡Hola! :wave: ¿Cómo estás?
 
 > Si llegaste hasta acá, muchas gracias por pasar!
 
