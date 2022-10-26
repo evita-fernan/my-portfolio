@@ -13,7 +13,7 @@
 * React
 * Tailwind CSS
 
-> En este proyecto me puse a prueba. Luego de emplear librerías como Bootstrap y Material UI, decidí iniciar este proyecto con algo diferente, es por ello que comencé a aprender Tailwind CSS. Te preguntarás porque comencé a aprender y no aprendí a secas, por así decirlo; es porque considero que para dominarlo del todo, requiere de mucha práctica y constancia, y en ello estoy! :wink:
+> En este proyecto me puse a prueba. Luego de emplear frameworks como Bootstrap y Material UI decidí iniciar este proyecto con algo diferente, y es por ello que comencé a aprender Tailwind CSS :woman_technologist:
 
-> Sí estás en duda de aprender o no Tail, te lo recomiendo 100%, porque permite elevar tus proyectos a un nivel de personalización que hará la diferencia. Además, descubrirás que es muy entretenido y la satisfacción de haber logrado vos mismo la personalización de tus aplicaciones, no tiene precio! o por lo menos así lo considero :nerd_face:
+> Si estás en duda de aprender o no Tailwind CSS, te lo recomiendo 100% porque permite elevar tus proyectos a un nivel de personalización que hará la diferencia, sin dejar de mencionar que tus aplicaciones podrán ser responsive, como es esta. Además, descubrirás que es muy entretenido y la satisfacción de haber logrado vos mismo la personalización de tus aplicaciones, no tiene precio! o por lo menos así lo considero :nerd_face:
 
