@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const options = [
     { name: "¿Quién soy?", link: "aboutMe" },
-    { name: "Projectos", link: "projects" },
+    { name: "Proyectos", link: "projects" },
     { name: "Tecnologías", link: "technologies" },
   ];
 
