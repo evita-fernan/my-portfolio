@@ -9,6 +9,7 @@ const AboutMe = () => {
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}
+          alt="down"
         ></img>
       </div>
       <h1 className="py-12 cursor-default">¿Quién soy?</h1>
@@ -56,7 +57,7 @@ const AboutMe = () => {
                 duration={1000}
                 className="underline cursor-pointer decoration-double decoration-pink-500"
               >
-                Projectos.
+                Proyectos.
               </Link>
           </p>
         </div>

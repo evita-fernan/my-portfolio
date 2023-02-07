@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
         <h1 className="py-12 cursor-default">Proyectos</h1>
-        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 gap-2 px-0 sm:px-4">
+        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 gap-3 px-0 sm:px-4">
           <div className="bg-gray-800 px-8 mx-auto hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-lg">
             <a
               href="https://github.com/evita-fernan/bierfass"
