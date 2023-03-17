@@ -13,6 +13,7 @@ const Projects = () => {
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}
+          alt=""
         ></img>
       </div>
       <div className="max-w-screen-2xl h-full flex flex-col items-center justify-center mx-auto w-full">
@@ -63,7 +64,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={gitHub} />
+                  <img src={gitHub} alt="github"/>
                 </a>
               </div>
             </div>
@@ -77,7 +78,7 @@ const Projects = () => {
               <img
                 className="rounded-t-lg object-bottom py-6"
                 src={miTurno}
-                alt="image page bierfass"
+                alt="page bierfass"
               />
             </a>
             <h2 className="text-white cursor-default">
@@ -122,10 +123,10 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={gitHub} />
+                  <img src={gitHub} alt="github"/>
                 </a>
-                <a href="https://youtu.be/d3Ftu_9RwU8" target="_blank">
-                  <img src={youTube} />
+                <a href="https://youtu.be/d3Ftu_9RwU8" target="_blank" rel="noreferrer">
+                  <img src={youTube} alt="youtube"/>
                 </a>
               </div>
             </div>

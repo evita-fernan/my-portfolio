@@ -30,8 +30,8 @@ const Footer = () => {
       <div className="flex flex-row justify-center items-center p-0 sm:p-4 w-full">
         {icons.map(({ id, name, img, link }) => (
           <div key={id}>
-            <a href={link} target="_blank">
-              <img src={img} className="px-3 py-3 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-16 sm:w-20"></img>
+            <a href={link} target="_blank" rel="noreferrer">
+              <img src={img} alt="images" className="px-3 py-3 hover:shadow-[0px_22px_70px_4px_rgb(236,72,153)] rounded-full w-16 sm:w-20"></img>
             </a>
           </div>
         ))}

@@ -1,4 +1,4 @@
-import React, { Fragment, useCallback, useState } from "react";
+import React, {useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 
@@ -48,6 +48,7 @@ const ContactMe = () => {
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}
+          alt=""
         ></img>
       </div>
       <div className="max-w-screen-xl items-center justify-center mx-auto">

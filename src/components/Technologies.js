@@ -41,6 +41,7 @@ const Technologies = () => {
         <img
           className="rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-bounce lg:py-8 py-4 lg:px-8 px-4"
           src={downSmall}
+          alt=""
         ></img>
       </div>
       <h1 className="py-12 cursor-default">Tecnologías</h1>
@@ -58,7 +59,7 @@ const Technologies = () => {
               className="py-2 rounded-full px-2"
             >
               <div key={id}>
-                <img src={img} className="w-16 sm:w-20 mx-auto"></img>
+                <img src={img} alt="" className="w-16 sm:w-20 mx-auto"></img>
                 <p className="text-white mt-4 cursor-default text-sm sm:text-base">{name}</p>
               </div>
             </div>
